@@ -46,6 +46,9 @@ kubectl port-forward svc/goldilocks-dashboard -n goldilocks 8080:80
 
 Then navigate to the URL: `http://localhost:8080` in your browser to access the dashboard.
 
+![image](https://github.com/user-attachments/assets/2044416d-139c-41b5-84bc-9fd3e53b771a)
+
+
 ---
 
 ## **Step 2: Install Vertical Pod Autoscaler (VPA)**
@@ -86,6 +89,9 @@ Ensure that VPA is installed correctly by checking the VPA pods:
 kubectl get pods -n kube-system -l app=vertical-pod-autoscaler
 ```
 
+![image](https://github.com/user-attachments/assets/9ae6a828-c6b9-4283-921c-286ae8554328)
+
+
 ---
 
 ## **Step 3: Label Namespaces for Goldilocks and VPA Integration**
@@ -101,6 +107,8 @@ kubectl label namespace <namespace-name> goldilocks.fairwinds.com/enabled=true
 ```
 
 Replace `<namespace-name>` with the name of your target namespace.
+![image](https://github.com/user-attachments/assets/cbacc249-15e5-4cd4-bc2b-a8ce275ae7b8)
+
 
 ---
 

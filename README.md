@@ -114,6 +114,12 @@ Now that everything is installed, you can start viewing resource recommendations
 
 You can then use these recommendations to adjust resource requests and limits for your Kubernetes workloads.
 
+![image](https://github.com/user-attachments/assets/74e1bf3c-09df-4f55-98a4-dfaa2988b0a2)
+
+![image](https://github.com/user-attachments/assets/c98b7315-36a3-4a79-b924-20747ee44eea)
+
+
+
 ---
 
 ## **Step 5: Additional Configuration and Troubleshooting**
